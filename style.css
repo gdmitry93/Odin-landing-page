@@ -2,9 +2,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-html,body {
+body{
     margin: 0;
     padding: 0;
+
 }
 
 h1 {
@@ -53,6 +54,14 @@ button {
     gap: 25px;
     margin-right: 25px;
     padding: 15px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero-section {
+    max-width: 1200px;
+    margin: auto;
+
 }
 
 .logo {

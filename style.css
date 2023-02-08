@@ -29,6 +29,11 @@ button {
     font-size: 18px;
 }
 
+.hero-image {
+    max-width: 500px;
+    max-height: 250px;
+}
+
 .hero-second {
     font-size: 18px;
     font-weight: bolder;
@@ -61,7 +66,21 @@ button {
 .hero-section {
     max-width: 1200px;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.hero-section-one {
+    max-width: 350px;
+}
+
+.hero-section-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 750px;
+    justify-content: center;
 }
 
 .logo {

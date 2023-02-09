@@ -2,6 +2,19 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover, a:hover {
+    color: gold;
+  }
+  
+button:active, a:active {
+    color: gold;
+  }
+
 body{
     margin: 0;
     padding: 0;
@@ -32,15 +45,14 @@ button {
     border-style:hidden;
 }
 
-
 .hero, .footer {
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
 }
 
+
 .hero-image {
-    max-width: 600px;
     max-height: 300px;
     border-radius: 8px;
 }
@@ -72,12 +84,18 @@ button {
 
 .header {
     display: flex;
-    justify-content:end;
+    justify-content:space-between;
     gap: 25px;
     margin-right: 25px;
     padding: 15px;
     max-width: 1200px;
     margin: auto;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 .hero-section {
@@ -98,7 +116,8 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    max-width: 750px;
+    max-width: 600px;
+    max-height: 300px;
     justify-content: center;
     align-items: center;
 
@@ -128,6 +147,7 @@ button {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    padding-bottom: 25px;
 }
 
 .main-containers div {

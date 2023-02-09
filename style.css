@@ -28,7 +28,7 @@ button {
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 5px;
-    border: 0px;
+    border-style:hidden;
 }
 
 
@@ -152,4 +152,31 @@ button {
 .action-call {
     max-width: 1500px;
     margin: auto;
+    display: flex;
+    padding: 40px;
+    margin: 100px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.call-to-action {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    width: 800px;
+}
+
+.sign-up {
+    align-self: center;
+}
+
+.action.sign-up {
+    font-weight: 600;
+    font-size: 20px;
+    border-color: white;
+    border-style:ridge;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
 }

@@ -159,7 +159,7 @@ button {
 }
 
 .testimonial-content {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
     padding-top: 80px;
     padding-bottom: 3px;
@@ -172,7 +172,7 @@ button {
 }
 
 .action-call {
-    max-width: 1500px;
+    max-width: 1200px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;

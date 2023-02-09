@@ -136,3 +136,20 @@ button {
     width: 200px;
 }
 
+.testimonial-content {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 3px;
+}
+
+.testimonial-endorsement {
+    text-align: end;
+    font-weight: 600;
+    padding: 0px;
+}
+
+.action-call {
+    max-width: 1500px;
+    margin: auto;
+}
